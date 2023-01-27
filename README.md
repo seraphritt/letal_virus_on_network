@@ -7,6 +7,8 @@ Esse modelo é baseado no modelo NetLogo "Virus on Network" com algumas adaptaç
 As adaptações feitas foram:
 - [x] Nova variável dependente ``Virus Letal Chance`` foi adicionada.
 - [x] Nova variável independente ``Dead`` foi adicionada.
+- [X] Nova variável ``Stable```foi adicionada, definindo assim a estabilidade do modelo na condição: "O modelo é considerado estável se não ouver mais nenhum agente com estado ``Infected`` no grafo".
+- [X] Adicionada função de captura de dados feitos pelo experimento em arquivos .csv.
 
 Para mais informações, leia a página: http://ccl.northwestern.edu/netlogo/models/VirusonaNetwork.
 
